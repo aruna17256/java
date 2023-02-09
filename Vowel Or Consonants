@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Vowcons
+{
+    public static void main(String args[])
+    {
+        int i=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ente a character : ");
+        char ch=sc.next().charAt(0);
+        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+        {
+            System.out.println("Enter character "+ch+" is vowel" );
+        }
+        else if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+           System.out.println("entered chatacter "+ch+" consonant");
+             else
+        System.out.println("Not an alphabet");
+    }
+        
+    
+}
